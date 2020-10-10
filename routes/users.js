@@ -1,3 +1,10 @@
+/*
+     File name: user.js
+     Student's name: Sukhjinder Kaur
+     Student ID: 301087895
+     Date: 10/10/2020
+*/
+
 var express = require('express');
 var router = express.Router();
 

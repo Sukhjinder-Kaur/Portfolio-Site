@@ -1,3 +1,10 @@
+/*
+     File name: index.js
+     Student's name: Sukhjinder Kaur
+     Student ID: 301087895
+     Date: 10/10/2020
+*/
+
 const express = require('express');
 const app = express();
 const port = 3000;
