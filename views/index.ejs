@@ -1,26 +1,19 @@
 <!--
      File name: index.ejs
+     File Type: Template
      Student's name: Sukhjinder Kaur
      Student ID: 301087895
      Date: 10/10/2020
 -->
 <!--Contains page header-->
-<%- include partials/header.ejs%>
+<%- include partials/shared/header.ejs%>
 <!--Contains nav bar of page-->
-<%- include partials/main_nav.ejs%>
+<%- include partials/shared/main_nav.ejs%>
 
-<!--Main content-->
-<main class="container">
-  <div class="jumbotron row justify-content-md-center">
-  <div class="col-8">
-    <h1 class="display-4">Welcome To My <%= title %></h1>
-    <hr class="my-4">
-    <p class="text-center"><em>“When we strive to become better than we are, everything around us becomes better too.”</em></p>
-    <p class="text-right"><strong>Paulo Coelho</strong></p>
-  </div>
-</main>
+<!--Page Partial-->
+<%- include('partials/' + page) %>
 
 <!--Contains copyright and footer of page-->
-<%- include partials/bottom_nav.ejs%>
+<%- include partials/shared/bottom_nav.ejs%>
 <!--Contains all scripts-->
-<%- include partials/footer.ejs%>
+<%- include partials/shared/footer.ejs%>

@@ -1,6 +1,103 @@
 /* custom css */
+body{
+  background-image:url(../assets/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main{
+  margin-top: 56px;
+  margin-bottom: 56px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.logo{
+  padding: 5px 0 0 0;
+  margin: 0px;
+}
+.logo img {
+  max-width: 96px;
+}
 .jumbotron {
-    margin-top: 80px;
-    background-color:rgb(234, 241, 241); /* Orange */
-    color: #080808;
+  background-color:rgb(234, 241, 241);
+  color: #080808;
   }
+
+.button{
+	padding: 12px 55px 12px 55px;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+.button:hover{
+ color: #fff;
+}
+
+.buttonColor{
+ background-color: #474253;
+ font-family:sans-serif;
+ color: #fff;
+}
+
+.buttonMargin{
+ display: inline-block;
+ margin-top: 20px;
+}
+
+.fieldset {
+  display: block;
+  margin-top: 50px;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image:inherit;
+}
+.form {
+  font-size: large;
+  width: 440px;
+  margin-left: 400px;
+}
+
+.legend {
+  display: block;
+  width: auto;
+  padding-inline-start: 7px;
+  padding-inline-end: 7px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+#contact-tiles .card:hover i,
+#contact-tiles .card:hover h4 {
+  color: #888;
+}
+#contacts-submit{
+  background-color: #343a40;
+  color: #fff;
+}
+#contacts-submit:hover {
+  background-color: #888888;
+}
+.contact-icons {
+  color: #343a40;
+}
+.contact-icons:hover {
+  color: #888888;
+}
+.card{
+  text-align:center;
+}
+.card-img-top {
+  max-height: 170px;
+}
+.card-text {
+  min-height: 50px;
+}

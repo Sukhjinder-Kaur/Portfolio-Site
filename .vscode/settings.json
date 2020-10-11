@@ -1,0 +1,14 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "files.insertFinalNewline": true,
+  "workbench.commandPalette.history": 5000,
+  "emmet.includeLanguages": {
+    "ejs": "html",
+  },
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "workbench.editorAssociations": [],
+}

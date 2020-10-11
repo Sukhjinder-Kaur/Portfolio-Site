@@ -1,18 +1,113 @@
 <!--
      File name: contacts.ejs
+     File Type: Template
      Student's name: Sukhjinder Kaur
      Student ID: 301087895
      Date: 10/10/2020
 -->
 <!--Contains page header-->
-<%- include partials/header.ejs%>
+<%- include partials/shared/header.ejs%>
 <!--Contains nav bar of page-->
-<%- include partials/main_nav.ejs%>
+<%- include partials/shared/main_nav.ejs%>
 
+<!--Main Content-->
+<main id="contact" role="main" class="container">
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <section class="jumbotron text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="panel panel-default well">
+                <div class="panel-body">
+                  <form action="" class="form-horizontal" method="post" id="contact-us-all">
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="exampleInputFirstName"
+                            placeholder="Enter first name" name="C_FirstName" data-bv-field="C_FirstName">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="exampleInputLastName"
+                            placeholder="Enter last name" name="C_LastName" data-bv-field="C_LastName">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Enter email" name="C_EmailAddress">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="C_BusPhone" placeholder="Phone" name="C_BusPhone">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <div class="input-group">
+                          <textarea class="form-control" name="Comments" id="Comments" rows="5" style="width:99.9%"
+                            placeholder="Enter your message here"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <button id="contacts-submit" type="submit" class="btn btn-default btn-info">CONTACT US</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12">
+                <div class="card border-0">
+                  <div class="card-body text-center">
+                    <a href="tel:+16479060676">
+                      <i class="fa fa-phone fa-5x mb-3 contact-icons" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="card border-0">
+                  <div class="card-body text-center">
+                    <a href="mailto:sukhmanyu@gmail.com">
+                      <i class="fa fa-envelope fa-5x mb-3 contact-icons" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="card border-0">
+                  <div class="card-body text-center">
+                    <a href="https://www.linkedin.com/in/sukhjinder-kaur-65ab8360/" target="_blank">
+                      <i class="fab fa-linkedin-in fa-5x mb-3 contact-icons" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-
+        </div>
+      </section>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</main>
 
 <!--Contains copyright and footer of page-->
-<%- include partials/bottom_nav.ejs%>
+<%- include partials/shared/bottom_nav.ejs%>
 <!--Contains all scripts-->
-<%- include partials/footer.ejs%>
+<%- include partials/shared/footer.ejs%>
