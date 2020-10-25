@@ -1,3 +1,10 @@
+/*
+     File name: business.js
+     Student's name: Sukhjinder Kaur
+     Student ID: 301087895
+     Date: 25/10/2020
+*/
+
 let mongoose = require('mongoose');
 
 // create a model class

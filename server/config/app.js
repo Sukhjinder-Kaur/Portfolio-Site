@@ -2,7 +2,7 @@
      File name: app.js
      Student's name: Sukhjinder Kaur
      Student ID: 301087895
-     Date: 10/10/2020
+     Date: 25/10/2020
 */
 /*This  is the main files which links all the site structure together */
 //Installed third party packages and requires for linking the dependencies we need to run the project

@@ -1,3 +1,10 @@
+/*
+     File name: user.js
+     Student's name: Sukhjinder Kaur
+     Student ID: 301087895
+     Date: 25/10/2020
+*/
+
 //require modules for the user module
 let mongoose = require('mongoose');
 let passportLocalMongoose = require('passport-local-mongoose');

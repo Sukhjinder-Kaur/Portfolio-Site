@@ -1,3 +1,10 @@
+/*
+     File name: index.js
+     Student's name: Sukhjinder Kaur
+     Student ID: 301087895
+     Date: 25/10/2020
+*/
+
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -33,7 +40,7 @@ module.exports.displayContactsPage = (req, res, next) => {
 
 //get contact page
 module.exports.displayLoginPage = (req, res, next) => {
-  //if user is already logges in
+  //if user is already logged in
   if (!req.user) {
     res.render('auth/login', {
       title: 'Login',

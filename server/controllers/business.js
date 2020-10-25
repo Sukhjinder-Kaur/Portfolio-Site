@@ -1,3 +1,10 @@
+/*
+     File name: business.js
+     Student's name: Sukhjinder Kaur
+     Student ID: 301087895
+     Date: 25/10/2020
+*/
+
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
