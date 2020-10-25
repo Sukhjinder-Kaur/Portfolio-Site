@@ -1,0 +1,60 @@
+<%- include ../partials/shared/header.ejs%>
+<!--Contains nav bar of page-->
+<%- include ../partials/shared/main_nav.ejs%>
+
+<!-- Main Content-->
+
+<main class="container">
+  <section class="jumbotron">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1><%=title%></h1>
+      </div>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form" method="POST">
+              <div class="form-group">
+                <label for="firstNameTextField">First Name</label>
+                <input type="text" class="classform-control" id="firstNameTextField" placeholder="Enter First Name"
+                  name="first_name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="lastNameTextField">Last Name</label>
+                <input type="text" class="classform-control" id="lastNameTextField" placeholder="Enter Last Name"
+                  name="last_name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="emailTextField">Email</label>
+                <input type="text" class="classform-control" id="emailTextField" placeholder="Enter Email" name="email"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="phoneNumberTextField">Phone Number</label>
+                <input type="text" class="classform-control" id="phoneNumberTextField" placeholder="Enter Phone Number"
+                  name="phone_number" required>
+              </div>
+
+              <div class="form-group">
+                <button class="btn btn-success" type="submit">
+                  <i class="fas fa-edit"></i> Save</button>
+
+                <a href="/business-list" class="btn btn-secondary">
+                  <i class="fas fa-undo"></i> Cancel</a>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!--Contains copyright and footer of page-->
+<%- include ../partials/shared/bottom_nav.ejs%>
+<!--Contains all scripts-->
+<%- include ../partials/shared/footer.ejs%>
