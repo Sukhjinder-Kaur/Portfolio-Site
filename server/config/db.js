@@ -6,5 +6,8 @@
 */
 
 module.exports = {
-  "URI": "mongodb://localhost/business_list"
+  "URI": "mongodb+srv://sukhjinder:YzQP319sgQ5BkrBA@cluster0.vsdpk.mongodb.net/<dbname>?retryWrites=true&w=majority"
+
+  //Local
+  // "URI": "mongodb://localhost/business_list"
 }
